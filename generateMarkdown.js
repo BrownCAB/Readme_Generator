@@ -105,7 +105,9 @@ function generateMarkdown(data) {
   ## License
   ${data.license}
   <br>
+  <br>
   ${renderLicenseSection(data.license[0])}
+  <br>
   <br>
   License link: ${renderLicenseLink(data.license[0])}
   
