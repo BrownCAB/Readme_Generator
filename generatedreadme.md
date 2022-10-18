@@ -1,12 +1,11 @@
 
-  # Title
-  gakjf
+  # Professional Readme Generator
 
   ## Badge
-  [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
   ## Description
-  afjka
+  To quickly make a professionally generated Readme for new projects.
   
   ## Table of Contents
   - [Title](#title)
@@ -20,24 +19,24 @@
   - [Questions](#questions)
   
   ## Installation
-  afkakf
+  download it through github
   
   ## Usage
-  afkakf
+  To run the generator you must have npm and inquirer 8.2.4 package installed locally to run it.
   
   ## License
-  Unlicense
-  Anyone is free to copy, modify, publish, use, compile, sell, ordistribute this software, either in source code form or as a compiled binary, for any purpose, commercial or non-commercial, and by any means.
-  License link: https://choosealicense.com/licenses/unlicense/
+  MIT
+  Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to dealin the Software without restriction, including without limitation the rightsto use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+  License link: https://choosealicense.com/licenses/mit/
   
   ## Contributing
-  Personal Guidelines
+  Contributor Covenant
   
   ## Tests
-  af,l
+  The main use is to create README files. However the application can be modified to create any editable file type.
   
   ## Questions
-  GitHub: afkaf
-  <br>e-mail: afkalf
-  <br>Contact: alflf
+  GitHub Username: BrownCAB
+  <br>E-mail: brown.calah@hotmail.com
+  <br>Contact: E-mail
   
