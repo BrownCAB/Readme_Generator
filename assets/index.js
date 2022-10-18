@@ -36,14 +36,14 @@ const questions = [
     name: "license",
     // Create an array for the list of Licenses
     choices: ['GPLv3', 'LGPLv3', 'MPL 2.0', 'Apache 2.0', 'MIT', 'ISC', 'Unlicense'],
-    validate: nameInput => {
-        if (nameInput) {
-          return true;
-        } else {
-          console.log('Please select a license.');
-          return false;
-        }
-      }
+    // validate: nameInput => {
+    //     if (nameInput) {
+    //       return true;
+    //     } else {
+    //       console.log('Please select a license.');
+    //       return false;
+    //     }
+    //   }
     // When the user has choosen License then a correspoding Badge is generated near the top of the page
 
     // A notice explains which license the application is covered under License

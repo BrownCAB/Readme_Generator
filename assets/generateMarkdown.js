@@ -1,6 +1,6 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-//function renderLicenseBadge(license) {}
+
 function renderLicenseBadge(license) {
   let licenseOption = license;
   let licenseBadge = '';
@@ -17,24 +17,38 @@ function renderLicenseBadge(license) {
       licenseBadge = '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)'
   } else if (licenseOption === 'ISC') {
       licenseBadge = '[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)'
-  } else if (license === 'Unlicense') {
+  } else if (licenseOption === 'Unlicense') {
     licenseBadge = '[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)'
+  } else {
+    licenseBadge = '';
   }
+  return licenseBadge
 }
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
+  let licenseOption = license;
   let licenseLink = '';
 
-  if (licenseLink === "'GPLv3" ) {
-    licenseLink = "'GPLv3"
-    return '';
+  if (licenseOption === 'GPLv3') {
+    licenseLink = 'https://choosealicense.com/licenses/gpl-3.0/'
+  } else if (licenseOption === 'LGPLv3') {
+      licenseLink = 'https://choosealicense.com/licenses/lgpl-3.0/'
+  } else if (licenseOption === 'MPL 2.0') {
+    licenseLink = 'https://choosealicense.com/licenses/mpl-2.0/'
+  }  else if (licenseOption === 'Apache 2.0') {
+      licenseLink = 'https://choosealicense.com/licenses/apache-2.0/'
+  } else if (licenseOption === 'MIT') {
+      licenseLink = 'https://choosealicense.com/licenses/mit/'
+  } else if (licenseOption === 'ISC') {
+      licenseLink = ''
+  } else if (licenseOption === 'Unlicense') {
+    licenseLink = 'https://choosealicense.com/licenses/unlicense/'
   } else {
-    return false;
-  }  
-
-
+    licenseLink = '';
+  }
+  return licenseLink
 }
 
 // TODO: Create a function that returns the license section of README
@@ -47,7 +61,7 @@ function renderLicenseSection(license) {
     licenseMessage = 'The GNU General Public License is a free, copyleft license for software and other kinds of works.';
   } else if (licenseOption === 'LGPLv3') {
     licenseMessage = 'This version of the GNU Lesser General Public License incorporatesthe terms and conditions of version 3 of the GNU General Public License, supplemented by the additional permissions listed below.';
-  } else if (licenseOption === 'MPL 2.0') {
+  } else if (license === 'MPL 2.0') {
     licenseMessage = 'A permissive license whose main conditions require preservation of copyright and license notices. Contributors provide an express grant of patent rights. Licensed works, modifications, and larger works may be distributed under different terms and without source code.';
   } else if (licenseOption === 'Apache 2.0') {
     licenseMessage = 'License" shall mean the terms and conditions for use, reproduction, and distribution as defined by Sections 1 through 9 of this document.';
@@ -70,7 +84,7 @@ function generateMarkdown(data) {
   ${data.title}
 
   ## Badge
-  ${data.renderLicenseBadge(license)}
+  ${data.licenseBadge}
   
   ## Description
   ${data.descript}
@@ -95,6 +109,7 @@ function generateMarkdown(data) {
   ## License
   ${data.license}
   ${data.renderLicenseSection(license)}
+  License link: ${data.renderLicenseLink(license)}
   
   ## Contributing
   ${data.contribute}
@@ -108,6 +123,5 @@ function generateMarkdown(data) {
   Contact: ${data.contact}
   `;
 }
-
 
 module.exports = generateMarkdown;
