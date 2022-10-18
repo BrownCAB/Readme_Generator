@@ -62,7 +62,7 @@ function renderLicenseSection(license) {
   } else if (licenseOption === 'Apache 2.0') {
     licenseMessage = 'License" shall mean the terms and conditions for use, reproduction, and distribution as defined by Sections 1 through 9 of this document.';
   } else if (licenseOption === 'MIT') {
-    licenseMessage = 'Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to dealin the Software without restriction, including without limitation the rightsto use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:';
+    licenseMessage = 'Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to dealin the Software without restriction, including without limitation the rightsto use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions...';
   } else if (licenseOption === 'ISC') {
     licenseMessage = 'The software is provided “as is” and isc disclaims all warranties with regard to this software including all implied warranties of merchantability and fitness. In no event shall isc be liable for any special, direct, indirect, or consequential damages or any damages whatsoever resulting from loss of use, data or profits, whether in an action of contract, negligence or other tortious action, arising out of or in connection with the use or performance of this software.';
   } else if (licenseOption === 'Unlicense') {
@@ -104,7 +104,9 @@ function generateMarkdown(data) {
   
   ## License
   ${data.license}
+  <br>
   ${renderLicenseSection(data.license[0])}
+  <br>
   License link: ${renderLicenseLink(data.license[0])}
   
   ## Contributing

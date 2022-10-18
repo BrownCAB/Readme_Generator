@@ -1,11 +1,11 @@
 
-  # Professional Readme Generator
+  # Example Title
 
   ## Badge
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
   ## Description
-  To quickly make a professionally generated Readme for new projects.
+  This is where you would describe your project and it's goals.
   
   ## Table of Contents
   - [Title](#title)
@@ -19,24 +19,26 @@
   - [Questions](#questions)
   
   ## Installation
-  download it through github
+  Follow these steps to properly install this application:
   
   ## Usage
-  To run the generator you must have npm and inquirer 8.2.4 package installed locally to run it.
+  Instructions for use:
   
   ## License
   MIT
-  Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to dealin the Software without restriction, including without limitation the rightsto use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+  <br>
+  Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to dealin the Software without restriction, including without limitation the rightsto use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions...
+  <br>
   License link: https://choosealicense.com/licenses/mit/
   
   ## Contributing
   Contributor Covenant
   
   ## Tests
-  The main use is to create README files. However the application can be modified to create any editable file type.
+  Instructions for testing application:
   
   ## Questions
   GitHub Username: BrownCAB
   <br>E-mail: brown.calah@hotmail.com
-  <br>Contact: E-mail
+  <br>Contact: e-mail
   

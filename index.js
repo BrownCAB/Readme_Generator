@@ -38,7 +38,7 @@ const questions = [
     // Array of Licenses
     choices: ['GPLv3', 'LGPLv3', 'MPL 2.0', 'Apache 2.0', 'MIT', 'ISC', 'Unlicense'],
     
-    // When the user has choosen License then a correspoding Badge is generated near the top of the page
+    // When the user has choosen a License then a correspoding Badge is generated near the top of the page
 
     // A notice explains which license the application is covered under License
   },
@@ -48,7 +48,7 @@ const questions = [
     message: "What are the guidelines for users to contribute?",
     name: "contribute",
     // Create an array for the list of Licenses
-    choices: ["Personal Guidelines", "Contributor Covenant"],
+    choices: ["Personal Guidelines", 'Contributor Covenant'],
   },
   {
     // Tests
@@ -78,7 +78,7 @@ const questions = [
 function askQuestions() {
   inquirer.prompt(questions).then((data) => {
     console.log(data);
-    fs.writeFile("generatedreadme.md", generateMarkdown(data), (err) => {
+    fs.writeFile("generatedMarkdown.md", generateMarkdown(data), (err) => {
       if (err) console.log(err);
      else console.log("Successfully created file!");
     });
