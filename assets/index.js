@@ -32,11 +32,19 @@ const questions = [
   {
     // License
     type: "checkbox",
-    message: "Please choose a license?",
-    name: "lics",
+    message: 'Please select a license.',
+    name: "license",
     // Create an array for the list of Licenses
-    choices: ["MIT", "Apache 2.0", "ISC", "BSD3", "BSD2", "LGPLv2.1"],
-    // When the user has choosen liscense then a correspoding badge is generated near the top of the page
+    choices: ['GPLv3', 'LGPLv3', 'MPL 2.0', 'Apache 2.0', 'MIT', 'ISC', 'Unlicense'],
+    validate: nameInput => {
+        if (nameInput) {
+          return true;
+        } else {
+          console.log('Please select a license.');
+          return false;
+        }
+      }
+    // When the user has choosen License then a correspoding Badge is generated near the top of the page
 
     // A notice explains which license the application is covered under License
   },
@@ -72,6 +80,7 @@ const questions = [
   },
 ];
 
+// TODO: Create a function to write README file
 function askQuestions() {
   inquirer.prompt(questions).then((data) => {
     console.log(data);
@@ -85,7 +94,6 @@ function askQuestions() {
 // TODO: Create a function to initialize app
 function init() {
   askQuestions();
-  // TODO: Create a function to write README file
 }
 
 // Function call to initialize app
