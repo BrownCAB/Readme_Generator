@@ -1,14 +1,15 @@
 
-  ## Title 
-  afjafkjk;afl
+  # Title
+  gakjf
 
   ## Badge
+  [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
   
   ## Description
-  afjafjlkf
+  afjka
   
   ## Table of Contents
-  - [Title](#afjafkjk;afl)
+  - [Title](#title)
   - [Badge](#badge)
   - [Description](#description)
   - [Installation](#installation)
@@ -19,20 +20,24 @@
   - [Questions](#questions)
   
   ## Installation
-  akfkla
+  afkakf
   
   ## Usage
-  afajf
+  afkakf
   
   ## License
-  MIT
+  Unlicense
+  Anyone is free to copy, modify, publish, use, compile, sell, ordistribute this software, either in source code form or as a compiled binary, for any purpose, commercial or non-commercial, and by any means.
+  License link: https://choosealicense.com/licenses/unlicense/
   
   ## Contributing
-  
+  Personal Guidelines
   
   ## Tests
-  kafjakljfklf
+  af,l
   
   ## Questions
-  afkakf;l
+  GitHub: afkaf
+  <br>e-mail: afkalf
+  <br>Contact: alflf
   

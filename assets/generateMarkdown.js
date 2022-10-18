@@ -1,6 +1,4 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
-
+// Function that returns a license badge based on which license is passed in or an empty string
 function renderLicenseBadge(license) {
   let licenseOption = license;
   let licenseBadge = '';
@@ -25,8 +23,7 @@ function renderLicenseBadge(license) {
   return licenseBadge
 }
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
+// Function that returns the license link or an empty string
 function renderLicenseLink(license) {
   let licenseOption = license;
   let licenseLink = '';
@@ -51,8 +48,7 @@ function renderLicenseLink(license) {
   return licenseLink
 }
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
+// Function that returns the license section of README or an empty string
 function renderLicenseSection(license) {
   let licenseOption = license;
   let licenseMessage = '';
@@ -77,20 +73,21 @@ function renderLicenseSection(license) {
   return licenseMessage
 }
 
-// TODO: Create a function to generate markdown for README
+
+// Function to generate markdown for README
 function generateMarkdown(data) {
   return `
-  #Title
+  # Title
   ${data.title}
 
   ## Badge
-  ${data.renderLicenseBadge(license)}
+  ${renderLicenseBadge(data.license[0])}
   
   ## Description
   ${data.descript}
   
   ## Table of Contents
-  - [Title](#${data.title})
+  - [Title](#title)
   - [Badge](#badge)
   - [Description](#description)
   - [Installation](#installation)
@@ -108,8 +105,8 @@ function generateMarkdown(data) {
   
   ## License
   ${data.license}
-  ${data.renderLicenseSection(license)}
-  License link: ${data.renderLicenseLink(license)}
+  ${renderLicenseSection(data.license[0])}
+  License link: ${renderLicenseLink(data.license[0])}
   
   ## Contributing
   ${data.contribute}
@@ -118,9 +115,9 @@ function generateMarkdown(data) {
   ${data.test}
   
   ## Questions
-  GitHub: ${data.github}
-  e-mail: ${data.email}
-  Contact: ${data.contact}
+  GitHub Username: ${data.github}
+  <br>E-mail: ${data.email}
+  <br>Contact: ${data.contact}
   `;
 }
 
