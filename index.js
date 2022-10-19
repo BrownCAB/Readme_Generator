@@ -37,9 +37,7 @@ const questions = [
     name: "license",
     // Array of Licenses
     choices: ['GPLv3', 'LGPLv3', 'MPL 2.0', 'Apache 2.0', 'MIT', 'ISC', 'Unlicense'],
-    
     // When the user has choosen a License then a correspoding Badge is generated near the top of the page
-
     // A notice explains which license the application is covered under License
   },
   {

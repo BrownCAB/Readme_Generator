@@ -34,7 +34,7 @@
   License link: https://choosealicense.com/licenses/mit/
   
   ## Credits
-  - Instrunctor
+  - Instructor
   - 2u Tutor
   - Choosealicense: https://choosealicense.com/licenses/
   - gachoi06's starter code- https://github.com/coding-boot-camp/potential-enigma
