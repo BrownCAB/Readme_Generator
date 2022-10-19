@@ -25,8 +25,9 @@
 
   <img src="./demo/demoMarkdown.gif">
   <br>
+  <a href=https://user-images.githubusercontent.com/110314270/196571125-c25f0230-13ae-4bc3-900d-9a9d3116123e.mp4>Walkthrough Video</a> 
   <br>
-  <a href="https://drive.google.com/file/d/1H1wsRXyZSVt88mkIXpNEONN9N6wC7KST/view?usp=sharing">Walkthrough video</a> 
+  <a href="https://drive.google.com/file/d/1H1wsRXyZSVt88mkIXpNEONN9N6wC7KST/view?usp=sharing">Download Walkthrough Video</a> 
   <br>
   
 
