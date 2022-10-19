@@ -14,8 +14,7 @@
   - [Installation](#installation)
   - [Usage](#usage)
   - [License](#license)
-  - [Contributing](#contributing)
-  - [Tests](#tests)
+  - [Credits](#credits)
   - [Questions](#questions)
   
   ## Installation
@@ -24,15 +23,14 @@
   ## Usage
   To run the generator you must have npm and inquirer 8.2.4 package installed locally to run it. Installize node type 'node init' then to install package using 'npm i'. Once installed type 'node index' in the terminal then read and answer each prompt one at time.
 
-
   <img src="./demo/demoMarkdown.gif">
   <br>
   <br>
   <a href="https://drive.google.com/file/d/1H1wsRXyZSVt88mkIXpNEONN9N6wC7KST/view?usp=sharing">Walkthrough video</a> 
   <br>
-  <br>
+
   ## License
-   MIT
+  MIT
   <br>
   <br>
   Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to dealin the Software without restriction, including without limitation the rightsto use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions...
