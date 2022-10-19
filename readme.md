@@ -23,7 +23,14 @@
   
   ## Usage
   To run the generator you must have npm and inquirer 8.2.4 package installed locally to run it. Installize node type 'node init' then to install package using 'npm i'. Once installed type 'node index' in the terminal then read and answer each prompt one at time.
-  
+
+
+  <img src="./demo/demoMarkdown.gif">
+  <br>
+  <br>
+  <a href="https://drive.google.com/file/d/1H1wsRXyZSVt88mkIXpNEONN9N6wC7KST/view?usp=sharing">Walkthrough video</a> 
+  <br>
+  <br>
   ## License
    MIT
   <br>
